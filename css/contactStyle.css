@@ -1,20 +1,23 @@
 .sec1-2 {
-    background-image: url(../images/2018/11/slider1.jpg);
-    background-position: top;
-    background-size: 100%;
+  background-image: url(../images/2018/11/slider1.jpg);
+  background-position: center;
+  background-size: cover;
 }
 
 .sec1-2-header {
-    font-size: 55px;
-    margin: 128px 0px;
+  font-size: 55px;
+  margin: 128px 0px;
 }
 
 .div-input:hover {
-    border-bottom-color: #0b65ed !important;
-    transition: 0.4s;
+  border-bottom-color: #0b65ed !important;
+  transition: 0.4s;
 }
 
 .form-user-msg:hover {
-    border-bottom-color: #0b65ed !important;
-    transition: 0.4s;
+  border-bottom-color: #0b65ed !important;
+  transition: 0.4s;
+}
+textarea {
+  resize: none;
 }

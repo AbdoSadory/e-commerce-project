@@ -1,694 +1,633 @@
-html, body {
-    scroll-behavior: smooth;
+html,
+body {
+  scroll-behavior: smooth;
 }
 
 * {
-    margin: 0px;
-    padding: 0px;
+  margin: 0px;
+  padding: 0px;
 }
 
 hr {
-    height: 2px !important;
-    opacity: 1;
-    margin: 14px 0;
+  height: 2px !important;
+  opacity: 1;
+  margin: 14px 0;
 }
 
 .bk-color-blue {
-    background-color: #0b65ed !important;
+  background-color: #0b65ed !important;
 }
 
 .bk-color-gray {
-    background-color: rgb(243, 243, 243);
+  background-color: rgb(243, 243, 243);
 }
 
 .ft-color-blue {
-    color: #0b65ed;
+  color: #0b65ed;
 }
 
 .ft-color-gray {
-    color: rgb(243, 243, 243);
+  color: rgb(243, 243, 243);
 }
 
 .ft-color-darkgray {
-    color: rgb(189, 189, 189);
+  color: rgb(189, 189, 189);
 }
 
 .ft-13 {
-    font-size: 13px;
+  font-size: 13px;
 }
 
 .ft-50 {
-    font-size: 50px;
+  font-size: 50px;
 }
 
 .w-80 {
-    width: 80%;
+  width: 80%;
 }
 
 .w-90 {
-    width: 90%;
+  width: 90%;
 }
 
 .w-30 {
-    width: 30%;
+  width: 30%;
 }
 
 .w-dropdown {
-    width: 200px;
+  width: 200px;
 }
 
 .box-sizing-border {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 .float-left {
-    float: left;
+  float: left;
 }
 
 .clear {
-    clear: both;
+  clear: both;
 }
 
 .overlay {
-    background-color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(0, 0, 0, 0.7);
 }
 
 .overlay2 {
-    background-color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(0, 0, 0, 0.8);
 }
 
 .hover-black:hover {
-    color: black;
-    transition: 0.4s;
+  color: black;
+  transition: 0.4s;
 }
 
 .hover-gray:hover {
-    color: gray;
-    transition: 0.4s;
+  color: gray;
+  transition: 0.4s;
 }
 
 .hover-darkgray:hover {
-    color: rgb(189, 189, 189) !important;
-    transition: 0.4s !important;
+  color: rgb(189, 189, 189) !important;
+  transition: 0.4s !important;
 }
 
 .hover-blue:hover {
-    color: #0b65ed !important;
-    transition: 0.4s !important;
+  color: #0b65ed !important;
+  transition: 0.4s !important;
 }
 
 .box-shadow-gray {
-    box-shadow: 0px 0px 21px 5px #CCC;
+  box-shadow: 0px 0px 21px 5px #ccc;
 }
 
 .position-relative {
-    position: relative;
+  position: relative;
 }
 
 .position-absolute {
-    position: absolute;
+  position: absolute;
 }
 
 .no-outline {
-    outline: none;
+  outline: none;
 }
-
 /* =========navigator========== */
 
-/* 
-
- .nav-button{
-    display: none;
-}  */
-
-/* .nav-div-button {
-    text-align: right;
-}  */
-
-/* .nav-uls {
-    display: block !important;
-}  */
-
-.navbar-toggler {
-    background-color: #0b65ed;
-}
-
-.nav-header {
-    /* height: 20px; */
-    position: sticky;
-    top: 0px;
-    z-index: 9999;
-    box-shadow: 0px 8px 21px -11px;
-}
-
-.dropdown-menu {
-    visibility: hidden;
-    opacity: 0;
-    top: 25px;
-    transition: 0.2s;
-}
-
-.nav-item:hover .dropdown-menu {
-    display: block;
-    opacity: 1;
-    visibility: visible;
-    transform: translateX(20px);
-    transition: 0.2s;
-}
-
-.dropdown-item {
-    height: 40px;
-    line-height: 2;
-    font-size: 15px;
-}
-
-.dropdown-item:hover {
-    color: #0b65ed !important;
-    background-color: white;
+.nav-link {
+  color: #ccc;
 }
 
 .long {
-    padding: 0.5rem 0;
-    margin: 0;
-    font-size: 1rem;
-    color: #212529;
-    text-align: left;
-    list-style: none;
-    border-radius: 0.25rem;
-}
-
-.dropdown-menu-nested {
-    right: 0 !important;
-    visibility: hidden;
-}
-
-.nav-item-h {
-    display: inline-block;
-    width: 210px;
-}
-
-.nav-item:hover .dropdown-menu-nested {
-    visibility: visible;
+  padding: 0.5rem 0;
+  margin: 0;
+  font-size: 1rem;
+  color: #212529;
+  text-align: left;
+  list-style: none;
+  border-radius: 0.25rem;
 }
 
 /* ============================ */
 
 .carousel-inner {
-    height: 550px;
-    overflow: hidden;
-    box-sizing: border-box;
+  height: 550px;
+  overflow: hidden;
+  box-sizing: border-box;
 }
-
-.slider-img {
-    height: 555px;
+.carousel-item {
+  width: 100%;
+  height: inherit;
 }
-
-.slide-header {
-    margin-top: 140px;
+.carousel-item img {
+  width: 100%;
+  height: inherit;
+  object-fit: cover;
 }
 
 .carousel-caption {
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .carousel-indicators {
-    flex-direction: column;
-    align-items: flex-end;
-    top: 10%;
-    right: 45px;
-    left: auto !important;
-    margin-right: auto;
-    margin-left: auto;
+  flex-direction: column;
+  align-items: flex-end;
+  top: 10%;
+  right: 45px;
+  left: auto !important;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .carousel-indicators [data-bs-target] {
-    width: 11px;
-    height: 11px;
+  width: 11px;
+  height: 11px;
 }
 
 /* ====section2===== */
 
 .sec2-content {
-    /* border: 2px solid red; */
-    position: relative;
+  /* border: 2px solid red; */
+  position: relative;
 }
 
 .left-lines {
-    text-align: center;
-    box-sizing: border-box;
+  text-align: center;
+  box-sizing: border-box;
 }
 
 .hr1-1 {
-    margin-left: auto;
+  margin-left: auto;
 }
 
 .learn-more {
-    transition: 0.2s;
+  transition: 0.2s;
 }
 
 .learn-more:hover {
-    box-shadow: 0px 0px 6px 0px black;
+  box-shadow: 0px 0px 6px 0px black;
 }
-
+.sec2-content img {
+  object-fit: contain;
+}
 .sec2-deps {
-    /* border: 2px solid red; */
-    position: absolute;
-    top: 4%;
-    left: 0px;
-    box-shadow: 0px 0px 38px 1px grey;
+  position: absolute;
+  top: 4%;
+  left: 0px;
+  box-shadow: 0px 0px 38px 1px grey;
 }
 
 .icon-size {
-    font-size: 25px;
+  font-size: 25px;
 }
 
 .sep {
-    font-size: 50px;
+  font-size: 50px;
 }
 
 .deps {
-    align-items: center;
+  align-items: center;
 }
 
-.deps-content, .status-content {
-    display: inline-block;
-    width: 80%;
-    border-left: 1px solid #CCC;
+.deps-content,
+.status-content {
+  display: inline-block;
+  width: 80%;
+  border-left: 1px solid #ccc;
 }
 
-.deps-para, .status-para {
-    font-weight: lighter;
-    line-height: 1;
+.deps-para,
+.status-para {
+  font-weight: lighter;
+  line-height: 1;
 }
 
 .para {
-    font-weight: lighter;
+  font-weight: lighter;
 }
 
-.dep1:hover .icon-size, .dep1:hover .deps-heading {
-    color: rgb(11, 101, 237);
-    transition: 0.3s;
+.dep1:hover .icon-size,
+.dep1:hover .deps-heading {
+  color: rgb(11, 101, 237);
+  transition: 0.3s;
 }
 
 /* ====section3===== */
 
 .statuses {
-    padding: 90px 0px;
+  padding: 90px 0px;
 }
 
 .status-content {
-    border: 0;
+  border: 0;
 }
 
 .icon-div {
-    width: 20%;
-    height: 47px;
-    line-height: 3.5;
-    align-self: center;
-    background-color: white;
-    box-shadow: 0px 0px 5px 0px grey;
+  width: 20%;
+  height: 47px;
+  line-height: 3.5;
+  align-self: center;
+  background-color: white;
+  box-shadow: 0px 0px 5px 0px grey;
 }
 
 .status-icon {
-    font-size: 30px;
+  font-size: 30px;
 }
 
 /* =======Section4=========== */
 
 .sec4 {
-    background-image: url(../images/sec4-bg.jpg);
-    background-position: center;
-    background-attachment: fixed;
-    background-size: 100%;
+  background-image: url(../images/sec4-bg.jpg);
+  background-position: center;
+  background-attachment: fixed;
+  background-size: 100%;
 }
 
 .cards {
-    height: 200px;
-    border: 2px solid white;
-    overflow: hidden;
-    position: relative;
+  height: 200px;
+  border: 2px solid white;
+  overflow: hidden;
+  position: relative;
 }
 
 .head {
-    height: 100%;
+  height: 100%;
 }
 
 .cards:hover .div-descrip {
-    transform: translateY(-196px);
-    height: 100%;
-    transition: 0.4s;
+  transform: translateY(-196px);
+  height: 100%;
+  transition: 0.4s;
 }
 
 .descrip-but {
-    font-size: 13px;
+  font-size: 13px;
 }
 
 .col-13 {
-    width: 32%;
+  width: 32%;
 }
 
 .descrip-but {
-    transition: 0.2s;
+  transition: 0.2s;
 }
 
 .descrip-but:hover {
-    box-shadow: 0px 0px 6px 0px black;
+  box-shadow: 0px 0px 6px 0px black;
 }
 
 /* ======section5====== */
 
 .img-divs {
-    height: 360px;
-    transition: 0.2s;
+  height: 360px;
+  transition: 0.2s;
+  object-fit: contain;
+  margin-bottom: 10px;
 }
 
 .img-divs:hover {
-    box-shadow: 0px 0px 6px 0px black;
+  box-shadow: 0px 0px 6px 0px black;
 }
 
 .all-left-top-div {
-    background-image: url(../images/2018/11/wood-sticks.jpg);
-    background-size: 100%;
-    position: relative;
-    background-repeat: no-repeat;
+  background-image: url(../images/2018/11/wood-sticks.jpg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  background-repeat: no-repeat;
 }
 
 .all-mid-top-div {
-    background-image: url(../images/2018/11/black-computer.jpg);
-    background-size: 100%;
-    position: relative;
-    background-repeat: no-repeat;
+  background-image: url(../images/2018/11/black-computer.jpg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  background-repeat: no-repeat;
 }
 
 .all-right-top-div {
-    background-image: url(../images/2018/11/pencile-laptop.jpg);
-    background-size: 100%;
-    position: relative;
-    background-repeat: no-repeat;
+  background-image: url(../images/2018/11/pencile-laptop.jpg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  background-repeat: no-repeat;
 }
 
 .all-left-bottom-div {
-    background-image: url(../images/2018/11/percision.jpg);
-    background-size: 100%;
-    position: relative;
-    background-repeat: no-repeat;
+  background-image: url(../images/2018/11/percision.jpg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  background-repeat: no-repeat;
 }
 
 .all-mid-bottom-div {
-    background-image: url(../images/2018/11/black-white-suit.jpg);
-    background-size: 100%;
-    position: relative;
-    background-repeat: no-repeat;
+  background-image: url(../images/2018/11/black-white-suit.jpg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  background-repeat: no-repeat;
 }
 
 .all-right-bottom-div {
-    background-image: url(../images/2018/11/white-computer.jpg);
-    background-size: 100%;
-    position: relative;
-    background-repeat: no-repeat;
+  background-image: url(../images/2018/11/white-computer.jpg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  background-repeat: no-repeat;
 }
 
 .blue-div-bar {
-    background-color: rgba(11, 101, 237, 0.7);
-    margin-top: 65%;
-    position: relative;
-    visibility: hidden;
+  background-color: rgba(11, 101, 237, 0.7);
+  position: absolute;
+  visibility: hidden;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .img-divs:hover .blue-div-bar {
-    visibility: visible;
-    transition-timing-function: ease-out;
-    transition-delay: 0.2s;
+  visibility: visible;
+  transition-timing-function: ease-out;
+  transition-delay: 0.2s;
 }
 
 .blue-bar-div-icon {
-    position: absolute;
-    top: 30%;
-    right: 20px;
+  position: absolute;
+  top: 30%;
+  right: 20px;
 }
 
 .blue-bar-para {
-    font-size: 14px;
+  font-size: 14px;
 }
 
 /* ======section6====== */
 
 .sec6 {
-    background-image: url(../images/2019/03/ecommerce-cover-2.jpg);
-    background-size: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 780px;
+  background-image: url(../images/2019/03/ecommerce-cover-2.jpg);
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 780px;
 }
 
 /* ======section7====== */
 
 .team-cards {
-    height: 370px;
-    overflow: hidden;
+  height: 370px;
+  overflow: hidden;
+  margin-bottom: 16px !important;
 }
 
 .top-left-team-card {
-    background-image: url(../images/2018/11/team1.png);
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
-    position: relative;
+  background-image: url(../images/2018/11/team1.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  position: relative;
 }
 
 .top-mid-team-card {
-    background-image: url(../images/2018/11/team2.png);
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
-    position: relative;
+  background-image: url(../images/2018/11/team2.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  position: relative;
 }
 
 .top-right-team-card {
-    background-image: url(../images/2018/11/team3.png);
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
-    position: relative;
+  background-image: url(../images/2018/11/team3.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  position: relative;
 }
 
 .bottom-left-team-card {
-    background-image: url(../images/2018/11/team4.png);
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
-    position: relative;
+  background-image: url(../images/2018/11/team4.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  position: relative;
 }
 
 .bottom-mid-team-card {
-    background-image: url(../images/2018/11/team5.png);
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
-    position: relative;
+  background-image: url(../images/2018/11/team5.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  position: relative;
 }
 
 .bottom-right-team-card {
-    background-image: url(../images/2018/11/team6.png);
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
-    position: relative;
+  background-image: url(../images/2018/11/team6.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  position: relative;
 }
 
 .team-card-content {
-    overflow: hidden;
-    height: 185px;
-    position: absolute;
-    top: 82.5%;
-    /* top: 50%; */
-    transition: 0.5s;
+  overflow: hidden;
+  height: 185px;
+  position: absolute;
+  top: 82.5%;
+  transition: 0.5s;
 }
 
 .team-card-heading {
-    font-size: 17px;
+  font-size: 17px;
 }
 
 .team-card-position {
-    font-size: 13px;
+  font-size: 13px;
 }
 
 .team-card-desc {
-    font-size: 13px;
-    transition: 0.5s;
+  font-size: 13px;
+  transition: 0.5s;
 }
 
 .team-card-contacts {
-    height: 40px;
+  height: 40px;
 }
 
 .team-cards:hover .team-card-content {
-    top: 50%;
+  top: 50%;
 }
 
 .team-cards:hover .team-card-desc {
-    border: none !important;
+  border: none !important;
 }
 
 .team-cards:hover .team-card-contacts {
-    transform: translateY(-10px);
-    transition: 0.4s linear;
-    transition-delay: 0.3s;
+  transform: translateY(-10px);
+  transition: 0.4s linear;
+  transition-delay: 0.3s;
 }
 
 /* ======section9===== */
 
 .email-input {
-    font-size: 13px;
-    outline: none;
-    width: 70%;
+  font-size: 13px;
+  outline: none;
+  width: 70%;
 }
 
 /* ======section10==== */
 
 .owl-dots {
-    display: none;
+  display: none;
 }
 
 .owl-prev {
-    background-color: #0b65ed !important;
-    width: 3% !important;
-    border-radius: 50% 0 0 50% !important;
-    padding: 0 !important;
-    color: white !important;
+  background-color: #0b65ed !important;
+  width: 3% !important;
+  border-radius: 50% 0 0 50% !important;
+  padding: 0 !important;
+  color: white !important;
 }
 
 .owl-prev:hover {
-    background-color: black !important;
-    transition: 0.4s;
+  background-color: black !important;
+  transition: 0.4s;
 }
 
 .owl-next {
-    background-color: #0b65ed !important;
-    width: 3% !important;
-    border-radius: 0 50% 50% 0 !important;
-    color: white !important;
+  background-color: #0b65ed !important;
+  width: 3% !important;
+  border-radius: 0 50% 50% 0 !important;
+  color: white !important;
 }
 
 .owl-next:hover {
-    background-color: black !important;
-    transition: 0.4s;
+  background-color: black !important;
+  transition: 0.4s;
 }
 
 /* ======section11==== */
 
-.blog-card-img, .blog-content-contacts, .progress-bar, .readarrow {
-    transition: 0.6s;
+.blog-card-img,
+.blog-content-contacts,
+.progress-bar,
+.readarrow {
+  transition: 0.6s;
 }
 
 .blog-card:hover .blog-card-img {
-    transform: rotate(-5deg) scale(1.2);
+  transform: rotate(-5deg) scale(1.2);
 }
 
 .blog-card:hover .blog-content-contacts {
-    background-color: #0b65ed !important;
+  background-color: #0b65ed !important;
 }
 
 .blog-card:hover .progress-bar {
-    width: 100%;
+  width: 100%;
 }
 
 .progress {
-    height: 1px;
+  height: 1px;
 }
 
 .progress-bar {
-    width: 25%
+  width: 25%;
 }
 
 .readarrow {
-    font-size: 15px;
+  font-size: 15px;
 }
 
-.readMore:hover+.readarrow {
-    transform: translateX(10px);
+.readMore:hover + .readarrow {
+  transform: translateX(10px);
 }
 
 /* ======section12==== */
 
 .client-div-img {
-    height: 125px;
+  height: 200px;
+  margin-bottom: 10px;
 }
-
-.client-img1 {
-    top: 25%;
-    left: 25%;
-}
-
-.client-img2 {
-    top: 16%;
-    left: 25%;
-}
-
-.client-img3 {
-    top: 18%;
-    left: 25%;
-}
-
-.client-img4 {
-    top: 13%;
-    left: 25%;
-}
-
-.client-img5 {
-    top: 27%;
-    left: 25%;
-}
-
-.client-img6 {
-    top: 21%;
-    left: 11%;
+.client-div-img img {
+  border: 1px solid black;
+  width: 90%;
+  height: inherit;
+  object-fit: contain;
+  object-position: center;
 }
 
 /* ======section13 ======== */
 
 .purchase-phone {
-    font-size: 120px;
-    top: -3%;
-    left: 16%;
-    color: rgba(255, 255, 255, 0.1);
-    transform: rotate( -20deg);
+  font-size: 120px;
+  top: -3%;
+  left: 16%;
+  color: rgba(255, 255, 255, 0.1);
+  transform: rotate(-20deg);
 }
 
 /* ======section14  ======== */
-
+.sec14-container div {
+  padding: 10px;
+}
 .post-div-img:hover .post-img {
-    opacity: 0.5;
-    transition: 0.4s;
+  opacity: 0.5;
+  transition: 0.4s;
 }
 
 .popular-tag:hover {
-    background-color: #0b65ed !important;
-    color: white !important;
-    transition: 0.4s;
+  background-color: #0b65ed !important;
+  color: white !important;
+  transition: 0.4s;
 }
 
 /* ======section15 footer ======== */
 
 .footer {
-    box-shadow: 0px -1px 20px 2px black;
+  box-shadow: 0px -1px 20px 2px black;
 }
 
 .copyrights:hover {
-    color: #0b65ed !important;
+  color: #0b65ed !important;
 }
 
 .home-but {
-    position: fixed;
-    bottom: 10%;
-    right: 30px;
-    font-size: 30px;
-    display: none;
+  position: fixed;
+  bottom: 10%;
+  right: 30px;
+  font-size: 30px;
+  z-index: 99999;
 }
 
 .home-but:hover {
-    color: white !important;
+  color: white !important;
 }
